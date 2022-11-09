@@ -13,34 +13,26 @@ body {
   min-height: 100vh;
   padding: 24px;
 }
-.card {
+main {
   background-color: white;
   width: 326px;
   padding: 1rem;
   border-radius: 20px;
+  text-align: center;
 }
-.card img {
+main img {
   width: 100%;
   border-radius: 10px;
 }
-.card .info {
+
+h1 {
+  font-size: 1.5em;
   padding: 1rem;
-  text-align: center;
-}
-h2 {
-  padding-bottom: 1rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-}
-.attribution { 
-  font-size: 11px;
-  position: absolute;
-  bottom: 10px;
-}
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+  padding: 0 1em 1em 1em;
 }
